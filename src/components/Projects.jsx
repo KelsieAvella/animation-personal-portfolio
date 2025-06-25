@@ -74,7 +74,7 @@ export const Projects = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Social Media Dashboard</h3>
+          <h3>Senior Thesis</h3>
           <p>
             A comprehensive social media management dashboard with analytics,
             scheduling, and engagement tracking features.

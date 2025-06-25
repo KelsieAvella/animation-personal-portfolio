@@ -40,16 +40,14 @@ export const Hero = () => {
             variants={fadeInUp}
             whileHover={{ scale: 1.02 }}
           >
-            PedroTech
+            Kelsie Avella
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
             {" "}
-            Creative Developer & Designer
+            Front-End Developer | CS Graduate
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-            I craft beautiful digital experiences that combine stunning design
-            with powerful functionality. Specializing in modern web applications
-            and interactive user interfaces.
+          I build intuitive web applications that blend clean design with solid functionality. Skilled in React.js and SQL, I’m eager to launch my career creating user-friendly, efficient digital experiences.
           </motion.p>
 
           <motion.div className="cta-buttons" variants={staggerContainer}>
@@ -110,7 +108,7 @@ export const Hero = () => {
   role: "Fullstack Web Sorcerer",
   stack: {
     languages: ["JavaScript", "TypeScript", "SQL"],
-    frameworks: ["React", "Next.js", "TailwindCSS", "Supabase"],
+    frameworks: ["React", "Next.js", "TailwindCSS"],
   },
   traits: [
     "pixel-perfectionist",
@@ -131,10 +129,10 @@ export const Hero = () => {
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
             <div className="card-content">
-              <span className="card-icon"> 💻 </span>
+              <span className="card-icon"> 📂 </span>
               <span className="card-text">
                 {" "}
-                Currently working on something awesome!
+                Open to Career Opportunities
               </span>
             </div>
           </motion.div>
