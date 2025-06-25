@@ -32,9 +32,17 @@ export const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.div className="hero-badge">
-            <span> 👋 Hello, I'm </span>
-          </motion.div>
+          
+          
+          <motion.img
+             src="/projects/kelsieportrait.png"
+             alt= "Kelsie Avella Headshot"
+             className="hero-image"
+             initial={{ opacity: 0, scale: 0.9}}
+             animate={{opacity: 1, scale:1 }}
+             transition ={{ duration:0.8, delay:0.2}}
+          />
+
           <motion.h1
             className="glitch"
             variants={fadeInUp}
